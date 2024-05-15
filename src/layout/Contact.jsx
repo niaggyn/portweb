@@ -7,7 +7,7 @@ import { BiLogoTelegram } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { Link } from "react-scroll";
-import logoFooter from '../img/logoFooter.png'
+import logoFooter from "../img/logoFooter.png";
 import { HiChevronDoubleUp } from "react-icons/hi";
 
 //style
@@ -39,19 +39,43 @@ function Contact() {
             </div>
             <div id="social-medias-contact">
               <div id="link_content">
-                <a href="https://www.instagram.com/niaggynovoa/" id="link_contact">
+                <a
+                  href="https://www.instagram.com/niaggynovoa/"
+                  id="link_contact"
+                  target="_blank"
+                  alt="Instagram"
+                  onClick={() =>
+                    window.open("http://www.instagram.com/niaggynovoa/")
+                  }
+                >
                   <BsInstagram />
                   <p>@niaggysilva</p>
                 </a>
               </div>
               <div id="link_content">
-                <a href="https://www.linkedin.com/in/niaggy-novoa-296497b4/" id="link_contact">
+                <a
+                  href="https://www.linkedin.com/in/niaggy-novoa-296497b4/"
+                  id="link_contact"
+                  target="_blank"
+                  alt="linkedIn"
+                  onClick={() =>
+                    window.open(
+                      "http://www.linkedin.com/in/niaggy-novoa-296497b4/"
+                    )
+                  }
+                >
                   <BsLinkedin />
                   <p>niaggysilva</p>
                 </a>
               </div>
               <div id="link_content">
-                <a href="https://github.com/niaggyn" id="link_contact">
+                <a
+                  href="https://github.com/niaggyn"
+                  id="link_contact"
+                  target="_blank"
+                  alt="github"
+                  onClick={() => window.open("https://github.com/niaggyn")}
+                >
                   <BsGithub />
                   <p>niaggysilva</p>
                 </a>
@@ -63,22 +87,20 @@ function Contact() {
           </div>
         </div>
         <div id="backHome">
-            <Link
-              to="home_container"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              <div>
-                <HiChevronDoubleUp/>
-                <p>HOME</p>
-              </div>
-              
-            </Link>
-          </div>
+          <Link
+            to="home_container"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <div>
+              <HiChevronDoubleUp />
+              <p>HOME</p>
+            </div>
+          </Link>
+        </div>
       </div>
-      
     </section>
   );
 }

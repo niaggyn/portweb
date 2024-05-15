@@ -79,7 +79,7 @@ export const cardsMobile = [
   {
     ID: 7,
     img: clinicaProject,
-    name: "Clí. Odontológica",
+    name: "Clínica Odontológica",
     description:
       "Landpage com tematica de clínica especializada. Apresentando uma clinica médica e seus serviços odontológicos, planos, opiniões dos clientes, e afins.",
     detail: "Estático*, Apenas UX, Empresarial, Página Única.",
@@ -157,7 +157,9 @@ function SliderCard() {
               />
               <Card.Body className="h-25">
                 <Card.Title className="text-center p-0">
-                <a href={card.link} className="link-dark fw-semibold">
+                <a href={card.link} className="link-dark fw-semibold"
+                  target="_blank" onClick={() => window.open(card.link)}
+                >
                     <button type="button" class="btn btn-info btn-sm">
                       {card.name}
                     </button>
