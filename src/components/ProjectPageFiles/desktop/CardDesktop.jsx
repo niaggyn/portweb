@@ -10,7 +10,7 @@ import iconsDev from "../../../img/icons.png";
 //api
 import { cards } from "./SliderCardDesktop";
 
-function CardDesktop({ img, name, id, description, detail }) {
+function CardDesktop({ img, name, id, description, detail, link }) {
   const [show, setShow] = useState(false);
   const [cor, setCor] = useState(null);
   const props3 = useSpring({
@@ -21,7 +21,7 @@ function CardDesktop({ img, name, id, description, detail }) {
   });
   return (
     <>
-      <div className="card_content_desktop">
+      <div className="card_content_desktop container ">
         <animated.div
           className="cardDesktop"
           style={props3}
@@ -32,7 +32,7 @@ function CardDesktop({ img, name, id, description, detail }) {
             <img src={img} alt="" />
           </div>
           <div id="template-for-desktop">
-            <Gem />
+            <Gem out={link}/>
             <div id="project-file-title">
               <div id="title-project-file">
                 <h1>{id}</h1>

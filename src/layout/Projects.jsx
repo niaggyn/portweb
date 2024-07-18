@@ -26,7 +26,7 @@ const Projects = ({ ref, img, name, id }) => {
             </div>
 
           </div>
-          <div id="forDesktopPreview">
+          <div id="forDesktopPreview" className="container mr-1">
             <SliderCardDesktop />
           </div>
           <div id="next">

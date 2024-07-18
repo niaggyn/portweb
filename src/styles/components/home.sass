@@ -29,7 +29,6 @@
         background-position-x: 750px
         background-position-y: 320px
         height: 70vh
-    
 
     #home_content
         width: variables.$mobile-width
@@ -46,9 +45,6 @@
             width: variables.$break-point-desktop-03w
         @media screen and (max-width: 1280px + 1) and (min-height: 1024px-1)
             width: variables.$break-point-desktop-02h
-            
-            
-
 
 #apresentation
     @media(max-width:520px)
@@ -62,18 +58,22 @@
         flex-direction: column
         #profile_apresentation
             width: inherit
+            margin-top: 10vh
             padding-left: 35px
             height: calc( 100vh - 120px )
             @media only screen and (min-width: variables.$break-point-desktop-02w ) and (max-width: variables.$break-point-desktop-02w + 1) and (min-height: variables.$break-point-desktop-02h)
                 padding-left: 40px
+                margin-top: 10vh
             @media(min-width: variables.$break-point-desktop-06w - 1px)
                 padding-left: 0px
+                margin-top: 10vh
     @media(min-width: variables.$break-point-desktop-04w)
         width: variables.$break-point-desktop-04w
+        margin-top: 10vh
     @media(min-width: variables.$break-point-desktop-01w - 1px)
         width: variables.$break-point-desktop-03w
-    
-        
+        margin-top: 10vh
+
 #logo
     @include mixins.center
     img
@@ -84,7 +84,7 @@
             margin-top: 30%
     @media(min-width:520px)
         display: none
-    
+
 #msg_home
     @include mixins.center
     flex-direction: column
@@ -163,7 +163,6 @@
         border-radius: variables.$card-border-radius
         cursor: pointer
         margin-right: auto
-        
 
     #perfil_right
         @include mixins.center
@@ -218,7 +217,7 @@
         cursor: pointer
         @media(max-width: variables.$break-point-mobile-05w)
             background: #000
-            
+
         &:hover
             background: linear-gradient(90deg,rgb(11, 0, 49),rgb(27, 2, 80))
             transition: .5s

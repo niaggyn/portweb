@@ -29,6 +29,7 @@ export const cards = [
         id="01"
         description="Site com tematica musical, apresentando uma escola de musica com cursos, videos-aulas e conteudos diversos para seus clientes."
         detail="Responsivo, Estilizado, Institucional, Várias Págínas."
+        link="https://niaggyn.github.io/MusicDot---Wd43/"
       />
     ),
   },
@@ -41,6 +42,7 @@ export const cards = [
         id="02"
         description="Site com tematica para stream de filmes,series e novidades. Apresentando uma plataforma de vídeos online com uma biblioteca, área para usuários se cadastrar, planos e muito mais."
         detail="Responsivo*, Estilizado, Institucional, Várias Págínas."
+        link="https://niaggyn.github.io/Stream-Service/"
       />
     ),
   },
@@ -53,6 +55,7 @@ export const cards = [
         id="03"
         description="Site com tematica de suporte cibernetico. Apresentando uma plataforma com serviços de gerenciamento de sites e servidores."
         detail="Estático*, Estilizado, Institucional, Página Única."
+        link="https://niaggyn.github.io/Informatica/"
       />
     ),
   },
@@ -65,6 +68,7 @@ export const cards = [
         id="04"
         description="Site Pessoal/Profissional com tematica de construção civil. Apresentando os serviços prestados por parte do profissional, neste caso para planejamento e execução de obras."
         detail="Responsivo*, Estilizado, Empresarial, Página Única."
+        link="https://niaggyn.github.io/Services-for-Civil-Construction/"
       />
     ),
   },
@@ -77,6 +81,7 @@ export const cards = [
         id="05"
         description="Landpage com tematica de dashboard. Apresentando uma área para usuarios do aplicativo, com várias opções para gerenciamento de tarefas."
         detail="Estático*, Apenas UX, Empresarial, Página Única."
+        link="https://github.com/niaggyn"
       />
     ),
   },
@@ -89,6 +94,7 @@ export const cards = [
         id="06"
         description="Landpage com tematica de loja online. Apresentando uma perspectiva de loja online de produtos eletrônicos, com visualização do produto, pesquisa por nome, tipo, valores e afins"
         detail="Estático*, Apenas UX, Empresarial, Página Única."
+        link="https://github.com/niaggyn"
       />
     ),
   },
@@ -101,6 +107,7 @@ export const cards = [
         id="07"
         description="Landpage com tematica de clínica especializada. Apresentando uma clinica médica e seus serviços odontológicos, planos, opiniões dos clientes, e afins."
         detail="Estático*, Apenas UX, Empresarial, Página Única."
+        link="https://niaggyn.github.io/Clinica-Odontologica/"
       />
     ),
   },
@@ -113,6 +120,7 @@ export const cards = [
         id="08"
         description="Landpage para demonstração de Aplicativo Mobile. Apresentando uma perspectiva de aplicativo em sua versão mobile com disposição de elementos."
         detail="Estático*, Apenas UX, Portifólio, Página Única."
+        link="https://niaggyn.github.io/NN-Desgin-Programa-o/"
       />
     ),
   },
@@ -125,6 +133,7 @@ export const cards = [
         id="09"
         description="Landpage com tematica de página de livro de cordel. Apresentando um cordel com efeitos de visualização que promovam a apreciação do texto."
         detail="Estático*, Apenas UX (Paralax), Institucional, Página Única."
+        link="https://niaggyn.github.io/Projeto-Cordel/"
       />
     ),
   },
@@ -137,6 +146,7 @@ export const cards = [
         id="10"
         description="Landpage com tematica de login de usuário. Apresentando uma área para o usuário do aplicativo obter acesso a plataforma."
         detail="Estático*, Apenas UX, Institucional, Página Única."
+        link="https://niaggyn.github.io/Tela-de-Login/"
       />
     ),
   },
@@ -149,6 +159,7 @@ export const cards = [
         id="11"
         description="Landpage com tematica de formulário. Apresentando uma área para inscrição de usuário de uma biblioteca."
         detail="Estático*, Apenas UX, Institucional, Página Única."
+        link="https://niaggyn.github.io/cadastro_formulario/"
       />
     ),
   },
@@ -161,6 +172,7 @@ export const cards = [
         id="11"
         description="Landpage com tematica de blog pessoal. Apresentando um blog com bibliografia, fotos e contato de uma modelo."
         detail="Estático*, Apenas UX, Institucional, Várias páginas."
+        link="https://github.com/niaggyn"
       />
     ),
   },
