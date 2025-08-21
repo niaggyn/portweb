@@ -4,7 +4,7 @@ const WebLogo = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="380.642"
+        width="580.642"
         height="40.642"
         viewBox="0 0 397.642 58.642"
       >
@@ -132,7 +132,7 @@ const WebLogo = () => {
             letter-spacing="0.3em"
           >
             <tspan x="0" y="0">
-              UI/UX DESIGNER AND DEVELOPER WEB
+              ENGENHEIRO DE COMPUTAÇÃO E TECG. EM CONSTRUÇÃO CIVIL
             </tspan>
           </text>
         </g>

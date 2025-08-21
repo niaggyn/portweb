@@ -43,7 +43,7 @@ function CardDesktop({ img, name, id, description, detail, link }) {
               <div id="project-description">
                 <p>{description}</p>
                 <p id="detalhes">{detail}</p>
-                <p id="ex">*Em estágio de desenvolvimento</p>
+                <p id="ex">Concluído</p>
               </div>
             </div>
 

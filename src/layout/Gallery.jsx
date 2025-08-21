@@ -21,7 +21,9 @@ import img11 from "../img/gallery/promotion-web.jpg";
 import img12 from "../img/gallery/tec1.jpg";
 import img13 from "../img/gallery/tec2.jpg";
 import img14 from "../img/gallery/tecnologo.jpg";
-import img15 from "../img/gallery/youtube-perfil.jpg";
+import img15 from "../img/gallery/fachada.jpg";
+import img16 from "../img/gallery/Unity.png";
+import img17 from "../img/gallery/Pergolado3.jpg";
 
 //style
 import "../styles/components/gallery.sass";
@@ -42,6 +44,8 @@ const GalleryFiles = [
   img13,
   img14,
   img15,
+  img16,
+  img17
 ];
 const enderecosImg = [{ id: "01", src: { img01 } }];
 function Gallery() {

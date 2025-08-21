@@ -16,6 +16,7 @@ import cordelProject from "../../../img/projects/cordel.jpg";
 import loginProject from "../../../img/projects/login.jpg";
 import formProject from "../../../img/projects/form.jpg";
 import bibliografiaProject from "../../../img/projects/bibliografia.jpg";
+import vcs from "../../../img/projects/vcs.jpg";
 
 import "../../../styles/components/slider/desktop/sliderCardDesktop.sass";
 
@@ -173,6 +174,20 @@ export const cards = [
         description="Landpage com tematica de blog pessoal. Apresentando um blog com bibliografia, fotos e contato de uma modelo."
         detail="Estático*, Apenas UX, Institucional, Várias páginas."
         link="https://github.com/niaggyn"
+      />
+    ),
+  },
+  {
+    key: uuidv4(),
+    content: (
+      <CardDesktop
+        img={vcs}
+        name="Vis. de Const. Simulada"
+        id="12"
+        description="Aplicativo de Realidade Aumentada para dispositivos móveis Android, que otimiza a visualização e interação 
+        com modelos BIM em ambientes reais, proporcionando uma experiência imersiva e intuitiva para profissionais da construção civil."
+        detail="Android, BIM, Realidade Aumentada, GitHub"
+        link="https://github.com/niaggyn/VCS_Android"
       />
     ),
   },
