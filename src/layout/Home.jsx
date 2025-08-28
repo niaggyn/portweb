@@ -27,19 +27,16 @@ const Home = () => {
                 <img src={msg} alt="Bem-Vindo" />
                 <div id="foto"></div>
                 <p className="fw-normal text-decoration-none">
-                  Olá, sou Niaggy Novoa, um recém-desenvolvedor e entusiasta na
-                  área da computação e designer. Formado em Tecnologia em
-                  Construção de Edifícios em 2018 e atualmente graduando em
-                  Engenharia da Computação pelo Instituto Federal de Ciência e
-                  Tecnologia do Maranhão. Apresento um breve resumo da minha
-                  trajetória nesse mundo digital neste portfólio. De forma
-                  resumida, este portfólio é um dos meus projetos favoritos,
-                  pois apresenta os diversos trabalhos e publicações na área de
-                  web-desenvolvimento, web-designer e construção civil que venho
-                  desenvolvendo, demonstrando do mais simples ao mais complexo.
-                  Como tudo está em movimento, este projeto permanece sendo
-                  atualizado constantemente. Agradeço a sua visita e, sempre que
-                  possível, volte aqui.
+                  Bem-vindo(a) ao meu portfólio. Sou Niaggy Novoa, um profissional com uma formação única que combina
+                  a lógica precisa da Engenharia da Computação com a solidez do Tecnólogo em Construção de Edifícios. 
+                  Minha paixão é criar a ponte entre o mundo físico e o digital, desenvolvendo soluções que não 
+                  apenas funcionam, mas também inovam.
+                  Neste espaço, você descobrirá uma seleção de projetos que refletem meu comprometimento com a 
+                  excelência técnica e a criatividade. De sistemas embarcados que otimizam o desempenho a experiências 
+                  imersivas com realidade aumentada, e de aplicativos móveis intuitivos a sistemas web robustos, cada trabalho 
+                  é uma prova de como a tecnologia pode ser aplicada para resolver desafios complexos.
+                  Convido você a mergulhar nos detalhes de cada projeto e a testemunhar como transformo ideias em realidade,
+                  construindo o futuro, um bit de cada vez. Agradeço a sua visita e, sempre que possível, volte aqui.
                 </p>
               </div>
               <div id="perfil">
